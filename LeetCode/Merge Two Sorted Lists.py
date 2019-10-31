@@ -17,6 +17,7 @@ class Solution(object):
         """
         l3 = ListNode(None)
         counter1 , counter2 = l1,l2
+        #Merged Sorted list
         head = l3
         while counter1 and counter2:
             if counter1.val < counter2.val:
